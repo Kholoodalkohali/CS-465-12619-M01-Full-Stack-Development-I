@@ -1,0 +1,13 @@
+<section>
+    <h2>Our Top Travel Destinations</h2>
+    <div class="trips">
+        {{#each trips}}
+            <div class="trip">
+                <img src="{{image}}" alt="{{destination}}">
+                <h3>{{destination}}</h3>
+                <p>Duration: {{duration}}</p>
+                <p>Price: {{price}}</p>
+            </div>
+        {{/each}}
+    </div>
+</section>
